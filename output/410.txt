@@ -1,0 +1,16 @@
+
+ Performance counter stats for './bwaves_base.amd64-m64-gcc42-nn':
+
+    16,691,252,343      instructions                                                
+     8,979,307,324      all_data_cache_accesses                                     
+        13,265,831      l2_cache_misses_from_dc_misses                                   
+       634,876,830      l2_cache_accesses_from_dc_misses                                   
+         5,953,493      l1_dtlb_misses                                              
+                 0      L1-dcache-load-misses                                       
+
+       2.249912401 seconds time elapsed
+
+       2.174488000 seconds user
+       0.058933000 seconds sys
+
+

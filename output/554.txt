@@ -1,0 +1,16 @@
+
+ Performance counter stats for './roms_r_base.mytest-m64':
+
+    25,364,052,874      instructions                                                
+    13,472,356,803      all_data_cache_accesses                                     
+        77,969,306      l2_cache_misses_from_dc_misses                                   
+       995,473,428      l2_cache_accesses_from_dc_misses                                   
+        73,404,806      l1_dtlb_misses                                              
+                 0      L1-dcache-load-misses                                       
+
+       3.867844323 seconds time elapsed
+
+       3.735993000 seconds user
+       0.043035000 seconds sys
+
+

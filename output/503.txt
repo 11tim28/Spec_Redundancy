@@ -1,0 +1,16 @@
+
+ Performance counter stats for './bwaves_r_base.mytest-m64 bwaves_1':
+
+    15,454,756,355      instructions                                                
+     8,263,280,338      all_data_cache_accesses                                     
+         7,923,492      l2_cache_misses_from_dc_misses                                   
+       738,921,084      l2_cache_accesses_from_dc_misses                                   
+         1,589,853      l1_dtlb_misses                                              
+                 0      L1-dcache-load-misses                                       
+
+       2.593236590 seconds time elapsed
+
+       2.470412000 seconds user
+       0.088050000 seconds sys
+
+

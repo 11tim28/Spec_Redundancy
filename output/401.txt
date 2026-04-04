@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/401.bzip2/run/run_base_test_amd64-m64-gcc42-nn.0000/bzip2_base.amd64-m64-gcc42-nn /work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/401.bzip2/run/run_base_test_amd64-m64-gcc42-nn.0000/input.program 5':
+
+     9,635,110,817      instructions                                                
+           248,499      L1-icache-load-misses                                       
+     1,625,731,057      branches                                                    
+        65,498,721      branch-misses             #    4.03% of all branches        
+        20,681,952      l2_cache_misses_from_dc_misses                                   
+                 0      iTLB-load-misses                                            
+
+       2.262935345 seconds time elapsed
+
+       2.075142000 seconds user
+       0.014011000 seconds sys
+
+

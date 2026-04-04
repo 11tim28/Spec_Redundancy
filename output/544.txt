@@ -1,0 +1,16 @@
+
+ Performance counter stats for './nab_r_base.mytest-m64 hkrdenq 1930344093 1000':
+
+     7,226,766,813      instructions                                                
+     3,440,099,846      all_data_cache_accesses                                     
+           159,690      l2_cache_misses_from_dc_misses                                   
+        16,039,749      l2_cache_accesses_from_dc_misses                                   
+           152,182      l1_dtlb_misses                                              
+                 0      L1-dcache-load-misses                                       
+
+       1.273656849 seconds time elapsed
+
+       1.181323000 seconds user
+       0.002003000 seconds sys
+
+
