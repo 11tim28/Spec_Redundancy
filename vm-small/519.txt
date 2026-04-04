@@ -1,0 +1,16 @@
+
+ Performance counter stats for './lbm_r_base.mytest-m64 20 reference.dat 0 1 100_100_130_cf_a.of':
+
+     6,311,956,077      instructions                                                
+     3,472,960,035      all_data_cache_accesses                                     
+         6,720,592      l2_cache_misses_from_dc_misses                                   
+       519,775,008      l2_cache_accesses_from_dc_misses                                   
+           115,971      l1_dtlb_misses                                              
+                 0      L1-dcache-load-misses                                       
+
+       1.049511781 seconds time elapsed
+
+       0.944022000 seconds user
+       0.039917000 seconds sys
+
+

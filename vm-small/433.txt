@@ -1,0 +1,16 @@
+
+ Performance counter stats for './milc_base.amd64-m64-gcc42-nn':
+
+        12,623,583      instructions:u                                                (78.86%)
+         5,271,102      all_data_cache_accesses:u                                     (85.01%)
+             6,919      l2_cache_misses_from_dc_misses:u                                     (85.01%)
+            72,401      l2_cache_accesses_from_dc_misses:u                                     (85.01%)
+            46,353      l1_dtlb_misses:u                                              (81.13%)
+           159,484      L1-dcache-load-misses:u                                       (84.98%)
+
+      81.069546762 seconds time elapsed
+
+       0.002541000 seconds user
+       0.004777000 seconds sys
+
+

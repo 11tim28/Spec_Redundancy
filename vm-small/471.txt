@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/471.omnetpp/run/run_base_test_amd64-m64-gcc42-nn.0000/omnetpp_base.amd64-m64-gcc42-nn /work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/471.omnetpp/run/run_base_test_amd64-m64-gcc42-nn.0000/omnetpp.ini':
+
+        46,718,252      instructions                                                
+            32,929      L1-icache-load-misses                                       
+         9,946,057      branches                                                    
+           101,012      branch-misses             #    1.02% of all branches        
+            59,029      l2_cache_misses_from_dc_misses                                   
+                 0      iTLB-load-misses                                            
+
+       0.078927793 seconds time elapsed
+
+       0.003682000 seconds user
+       0.005523000 seconds sys
+
+

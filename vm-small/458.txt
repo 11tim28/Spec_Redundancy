@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/458.sjeng/run/run_base_test_amd64-m64-gcc42-nn.0000/sjeng_base.amd64-m64-gcc42-nn /work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/458.sjeng/run/run_base_test_amd64-m64-gcc42-nn.0000/test.txt':
+
+    14,981,102,653      instructions                                                
+         2,009,283      L1-icache-load-misses                                       
+     3,293,960,353      branches                                                    
+        83,188,193      branch-misses             #    2.53% of all branches        
+         7,853,881      l2_cache_misses_from_dc_misses                                   
+                 0      iTLB-load-misses                                            
+
+       2.634362261 seconds time elapsed
+
+       2.565484000 seconds user
+       0.021012000 seconds sys
+
+

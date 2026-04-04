@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/445.gobmk/run/run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp':
+
+        31,172,349      instructions                                                
+            15,253      L1-icache-load-misses                                       
+         6,556,111      branches                                                    
+            40,081      branch-misses             #    0.61% of all branches        
+           113,085      l2_cache_misses_from_dc_misses                                   
+                 0      iTLB-load-misses                                            
+
+       0.106965239 seconds time elapsed
+
+       0.002187000 seconds user
+       0.007655000 seconds sys
+
+

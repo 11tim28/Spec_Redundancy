@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/403.gcc/run/run_base_test_amd64-m64-gcc42-nn.0000/gcc_base.amd64-m64-gcc42-nn /work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/403.gcc/run/run_base_test_amd64-m64-gcc42-nn.0000/cccp.i -o cccp.s':
+
+     4,111,006,553      instructions                                                
+         2,050,540      L1-icache-load-misses                                       
+       962,687,241      branches                                                    
+        22,190,463      branch-misses             #    2.31% of all branches        
+        10,961,384      l2_cache_misses_from_dc_misses                                   
+                 0      iTLB-load-misses                                            
+
+       0.876658797 seconds time elapsed
+
+       0.751077000 seconds user
+       0.014981000 seconds sys
+
+
