@@ -1,0 +1,16 @@
+
+ Performance counter stats for './fotonik3d_r_base.mytest-m64':
+
+    33,056,658,710      instructions                                                  (83.34%)
+    14,268,040,969      all_data_cache_accesses                                       (83.36%)
+        12,361,409      l2_cache_misses_from_dc_misses                                     (83.35%)
+       123,481,737      l2_cache_accesses_from_dc_misses                                     (83.32%)
+         1,206,632      l1_dtlb_misses                                                (83.34%)
+       122,826,503      L1-dcache-load-misses                                         (83.29%)
+
+       3.270992334 seconds time elapsed
+
+       2.902829000 seconds user
+       0.094188000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './hmmer_base.amd64-m64-gcc42-nn --fixed 0 --mean 325 --num 45000 --sd 200 --seed 0 ./bombesin.hmm':
+
+169,013,505,317,871      instructions                                                  (83.28%)
+            67,112      L1-icache-load-misses                                         (83.29%)
+     1,207,633,434      branches                                                      (83.27%)
+        18,496,975      branch-misses             #    1.53% of all branches          (83.39%)
+            76,241      l2_cache_misses_from_dc_misses                                     (83.39%)
+             1,597      iTLB-load-misses                                              (83.38%)
+
+       1.668738753 seconds time elapsed
+
+       1.402837000 seconds user
+       0.003990000 seconds sys
+
+

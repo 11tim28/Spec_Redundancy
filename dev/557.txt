@@ -1,0 +1,17 @@
+Compressed data 1548636 bytes in length
+
+ Performance counter stats for './xz_r_base.mytest-m64 cpu2006docs.tar.xz 4 055ce243071129412e9dd0b3b69a21654033a9b723d874b2015c774fac1553d9713be561ca86f74e4f16f22e664fc17a79f30caa5ad2c04fbc447549c2810fae 1548636 1555348 0':
+
+     2,624,606,483      instructions                                                  (83.15%)
+            93,125      L1-icache-load-misses                                         (83.46%)
+       300,070,555      branches                                                      (83.33%)
+        23,238,377      branch-misses             #    7.74% of all branches          (83.14%)
+         4,873,861      l2_cache_misses_from_dc_misses                                     (83.49%)
+             6,278      iTLB-load-misses                                              (83.43%)
+
+       0.515262029 seconds time elapsed
+
+       0.382835000 seconds user
+       0.057552000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './cpuxalan_r_base.mytest-m64 -v test.xml xalanc.xsl':
+
+168,505,575,588,263      instructions                                                  (83.52%)
+           279,309      L1-icache-load-misses                                         (84.90%)
+       117,897,761      branches                                                      (83.62%)
+           795,548      branch-misses             #    0.67% of all branches          (85.70%)
+           862,826      l2_cache_misses_from_dc_misses                                     (85.73%)
+            20,528      iTLB-load-misses                                              (76.53%)
+
+       1.944482874 seconds time elapsed
+
+       0.051294000 seconds user
+       0.028031000 seconds sys
+
+

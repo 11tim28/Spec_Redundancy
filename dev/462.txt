@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11141/yc35637/ls6/my_spec/spec2006/benchspec/CPU2006/462.libquantum/run/run_base_test_amd64-m64-gcc42-nn.0000/libquantum_base.amd64-m64-gcc42-nn 33 5':
+
+175,658,812,002,664      instructions                                                  (80.12%)
+             9,990      L1-icache-load-misses                                         (80.20%)
+        52,964,379      branches                                                      (86.73%)
+            85,193      branch-misses             #    0.16% of all branches          (86.77%)
+            16,906      l2_cache_misses_from_dc_misses                                     (86.74%)
+               513      iTLB-load-misses                                              (79.44%)
+
+       0.069428898 seconds time elapsed
+
+       0.012514000 seconds user
+       0.003868000 seconds sys
+
+

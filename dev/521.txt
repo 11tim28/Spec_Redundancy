@@ -1,0 +1,16 @@
+
+ Performance counter stats for './wrf_r_base.mytest-m64':
+
+168,949,754,878,562      instructions                                                  (83.33%)
+    30,411,003,629      all_data_cache_accesses                                       (83.33%)
+        58,947,737      l2_cache_misses_from_dc_misses                                     (83.35%)
+     1,034,604,238      l2_cache_accesses_from_dc_misses                                     (83.34%)
+        35,493,026      l1_dtlb_misses                                                (83.35%)
+     1,025,067,410      L1-dcache-load-misses                                         (83.29%)
+
+       7.965788317 seconds time elapsed
+
+       6.522237000 seconds user
+       0.105847000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './calculix_base.amd64-m64-gcc42-nn -i ./beampic.inp':
+
+         9,462,921      instructions                                                  (72.88%)
+         4,351,249      all_data_cache_accesses                                       (75.89%)
+            34,237      l2_cache_misses_from_dc_misses                                     (60.26%)
+            92,927      l2_cache_accesses_from_dc_misses                                   
+            39,985      l1_dtlb_misses                                              
+            89,621      L1-dcache-load-misses                                         (90.98%)
+
+       0.101020908 seconds time elapsed
+
+       0.000000000 seconds user
+       0.004633000 seconds sys
+
+

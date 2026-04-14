@@ -1,0 +1,16 @@
+
+ Performance counter stats for './omnetpp_r_base.mytest-m64 -c General -r 0':
+
+168,907,005,687,899      instructions                                                  (83.33%)
+         3,867,713      L1-icache-load-misses                                         (83.31%)
+     2,382,343,801      branches                                                      (83.36%)
+        27,513,652      branch-misses             #    1.15% of all branches          (83.35%)
+       121,713,752      l2_cache_misses_from_dc_misses                                     (83.29%)
+           153,684      iTLB-load-misses                                              (83.36%)
+
+       2.820004734 seconds time elapsed
+
+       2.155396000 seconds user
+       0.118328000 seconds sys
+
+

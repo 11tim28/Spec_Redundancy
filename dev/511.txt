@@ -1,0 +1,16 @@
+
+ Performance counter stats for './povray_r_base.mytest-m64 SPEC-benchmark-test.ini':
+
+170,218,189,694,995      instructions                                                  (82.68%)
+     1,069,688,205      all_data_cache_accesses                                       (83.93%)
+           803,569      l2_cache_misses_from_dc_misses                                     (83.40%)
+        83,862,269      l2_cache_accesses_from_dc_misses                                     (83.82%)
+         8,874,666      l1_dtlb_misses                                                (83.21%)
+        82,773,025      L1-dcache-load-misses                                         (82.95%)
+
+       0.748919123 seconds time elapsed
+
+       0.209269000 seconds user
+       0.022416000 seconds sys
+
+

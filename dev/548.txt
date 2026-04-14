@@ -1,0 +1,16 @@
+
+ Performance counter stats for './exchange2_r_base.mytest-m64 0':
+
+    74,199,368,651      instructions                                                  (83.32%)
+         1,257,833      L1-icache-load-misses                                         (83.34%)
+    12,349,588,022      branches                                                      (83.34%)
+       138,968,653      branch-misses             #    1.13% of all branches          (83.34%)
+           166,843      l2_cache_misses_from_dc_misses                                     (83.33%)
+             4,315      iTLB-load-misses                                              (83.33%)
+
+       5.788633079 seconds time elapsed
+
+       5.658843000 seconds user
+       0.008923000 seconds sys
+
+

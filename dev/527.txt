@@ -1,0 +1,16 @@
+
+ Performance counter stats for './cam4_r_base.mytest-m64':
+
+   146,773,544,946      instructions                                                  (83.32%)
+337,819,356,555,042      all_data_cache_accesses                                       (83.33%)
+       211,683,617      l2_cache_misses_from_dc_misses                                     (83.34%)
+168,883,101,621,902      l2_cache_accesses_from_dc_misses                                     (83.33%)
+        57,039,247      l1_dtlb_misses                                                (83.31%)
+     2,054,646,768      L1-dcache-load-misses                                         (83.35%)
+
+      23.321571181 seconds time elapsed
+
+      18.324230000 seconds user
+       0.387236000 seconds sys
+
+

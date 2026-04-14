@@ -1,0 +1,16 @@
+
+ Performance counter stats for './namd_base.amd64-m64-gcc42-nn --input ./namd.input --iterations 1 --dev ./namd.out':
+
+272,090,591,406,961      instructions                                                  (51.72%)
+         2,734,510      all_data_cache_accesses                                       (90.91%)
+            15,226      l2_cache_misses_from_dc_misses                                   
+            43,025      l2_cache_accesses_from_dc_misses                                   
+            22,525      l1_dtlb_misses                                              
+            53,834      L1-dcache-load-misses                                         (57.37%)
+
+       0.078806486 seconds time elapsed
+
+       0.000000000 seconds user
+       0.003220000 seconds sys
+
+

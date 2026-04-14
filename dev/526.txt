@@ -1,0 +1,16 @@
+
+ Performance counter stats for './blender_r_base.mytest-m64 cube.blend --render-output cube_ --threads 1 -b -F RAWTGA -s 1 -e 1 -a':
+
+332,888,820,608,342      instructions                                                  (84.56%)
+       471,647,966      all_data_cache_accesses                                       (84.84%)
+         1,631,644      l2_cache_misses_from_dc_misses                                     (82.29%)
+168,715,558,525,889      l2_cache_accesses_from_dc_misses                                     (83.42%)
+           885,193      l1_dtlb_misses                                                (80.24%)
+         8,622,933      L1-dcache-load-misses                                         (84.65%)
+
+       3.588856025 seconds time elapsed
+
+       0.115412000 seconds user
+       0.054756000 seconds sys
+
+

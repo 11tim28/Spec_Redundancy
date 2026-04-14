@@ -1,0 +1,16 @@
+
+ Performance counter stats for './mcf_r_base.mytest-m64 inp.in':
+
+337,817,687,297,822      instructions                                                  (83.32%)
+           467,032      L1-icache-load-misses                                         (83.34%)
+     7,079,320,997      branches                                                      (83.33%)
+       391,323,141      branch-misses             #    5.53% of all branches          (83.34%)
+       604,339,318      l2_cache_misses_from_dc_misses                                     (83.35%)
+            13,901      iTLB-load-misses                                              (83.32%)
+
+       7.339472110 seconds time elapsed
+
+       6.725231000 seconds user
+       0.050137000 seconds sys
+
+

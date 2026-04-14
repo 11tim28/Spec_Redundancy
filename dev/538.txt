@@ -1,0 +1,16 @@
+
+ Performance counter stats for './imagick_r_base.mytest-m64 -limit disk 0 test_input.tga -shear 25 -resize 640x480 -negate -alpha Off test_output.tga':
+
+176,542,717,555,824      instructions                                                  (79.72%)
+        33,216,524      all_data_cache_accesses                                       (81.00%)
+           109,860      l2_cache_misses_from_dc_misses                                     (88.74%)
+         1,715,669      l2_cache_accesses_from_dc_misses                                     (84.83%)
+           395,528      l1_dtlb_misses                                                (82.23%)
+         1,651,725      L1-dcache-load-misses                                         (83.47%)
+
+       0.149501119 seconds time elapsed
+
+       0.006604000 seconds user
+       0.009786000 seconds sys
+
+
