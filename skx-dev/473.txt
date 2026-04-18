@@ -1,0 +1,16 @@
+
+ Performance counter stats for './astar_base.amd64-m64-gcc42-nn ./lake.cfg':
+
+    21,795,925,563      instructions                                                          
+         3,054,886      L1-icache-load-misses                                                 
+     3,864,452,036      branches                                                              
+       530,038,397      branch-misses                    #   13.72% of all branches           
+           542,500      l2_rqsts.demand_data_rd_miss                                          
+             2,527      iTLB-load-misses                                                      
+
+       8.820011335 seconds time elapsed
+
+       8.786659000 seconds user
+       0.008943000 seconds sys
+
+

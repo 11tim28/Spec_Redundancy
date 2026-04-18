@@ -1,0 +1,16 @@
+
+ Performance counter stats for './GemsFDTD_base.amd64-m64-gcc42-nn':
+
+     5,815,728,140      instructions                                                          
+     1,364,807,229      mem_inst_retired.all_loads                                            
+        38,908,882      l2_rqsts.demand_data_rd_miss                                          
+        63,844,709      l2_rqsts.all_demand_data_rd                                           
+           118,834      dTLB-load-misses                                                      
+       170,310,357      L1-dcache-load-misses                                                 
+
+       1.269370479 seconds time elapsed
+
+       1.043739000 seconds user
+       0.213055000 seconds sys
+
+

@@ -1,0 +1,17 @@
+t1.c:2:5: warning: conflicting types for built-in function 'printf'
+
+ Performance counter stats for './cpugcc_r_base.linux-m64 t1.c -O3 -finline-limit=50000 -o t1.opts-O3_-finline-limit_50000.s':
+
+        94,279,632      instructions                                                          
+         1,010,183      L1-icache-load-misses                                                 
+        19,463,044      branches                                                              
+           125,149      branch-misses                    #    0.64% of all branches           
+            96,673      l2_rqsts.demand_data_rd_miss                                          
+             5,925      iTLB-load-misses                                                      
+
+       0.112996388 seconds time elapsed
+
+       0.002896000 seconds user
+       0.022169000 seconds sys
+
+

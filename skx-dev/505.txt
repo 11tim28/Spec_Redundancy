@@ -1,0 +1,16 @@
+
+ Performance counter stats for './mcf_r_base.linux-m64 inp.in':
+
+    27,422,488,415      instructions                                                          
+         3,187,603      L1-icache-load-misses                                                 
+     6,855,589,961      branches                                                              
+       398,672,423      branch-misses                    #    5.82% of all branches           
+       288,584,186      l2_rqsts.demand_data_rd_miss                                          
+             2,221      iTLB-load-misses                                                      
+
+      10.654772187 seconds time elapsed
+
+      10.509774000 seconds user
+       0.081728000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './cactusADM_base.amd64-m64-gcc42-nn ./benchADM.par':
+
+     8,976,686,611      instructions                                                          
+     3,633,398,988      mem_inst_retired.all_loads                                            
+         2,927,602      l2_rqsts.demand_data_rd_miss                                          
+        34,114,009      l2_rqsts.all_demand_data_rd                                           
+            26,753      dTLB-load-misses                                                      
+        61,936,301      L1-dcache-load-misses                                                 
+
+       1.215476971 seconds time elapsed
+
+       1.178098000 seconds user
+       0.027832000 seconds sys
+
+

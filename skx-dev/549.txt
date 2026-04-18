@@ -1,0 +1,16 @@
+
+ Performance counter stats for './fotonik3d_r_base.linux-m64':
+
+    32,992,449,552      instructions                                                          
+     8,494,059,014      mem_inst_retired.all_loads                                            
+        10,604,832      l2_rqsts.demand_data_rd_miss                                          
+        22,327,214      l2_rqsts.all_demand_data_rd                                           
+           434,883      dTLB-load-misses                                                      
+       117,222,336      L1-dcache-load-misses                                                 
+
+       4.974349873 seconds time elapsed
+
+       4.646217000 seconds user
+       0.169434000 seconds sys
+
+

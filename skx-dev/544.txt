@@ -1,0 +1,16 @@
+
+ Performance counter stats for './nab_r_base.linux-m64 hkrdenq 1930344093 1000':
+
+     6,284,723,433      instructions                                                          
+     1,963,479,663      mem_inst_retired.all_loads                                            
+            15,523      l2_rqsts.demand_data_rd_miss                                          
+         4,639,168      l2_rqsts.all_demand_data_rd                                           
+             8,849      dTLB-load-misses                                                      
+         6,905,076      L1-dcache-load-misses                                                 
+
+       1.427933387 seconds time elapsed
+
+       1.357852000 seconds user
+       0.003983000 seconds sys
+
+

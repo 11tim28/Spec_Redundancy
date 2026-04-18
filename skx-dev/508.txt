@@ -1,0 +1,16 @@
+
+ Performance counter stats for './namd_r_base.linux-m64 --input apoa1.input --iterations 1 --output apoa1.test.output':
+
+    30,059,914,593      instructions                                                          
+     8,977,905,912      mem_inst_retired.all_loads                                            
+         1,293,842      l2_rqsts.demand_data_rd_miss                                          
+       254,160,841      l2_rqsts.all_demand_data_rd                                           
+           248,607      dTLB-load-misses                                                      
+       485,763,436      L1-dcache-load-misses                                                 
+
+       4.407130905 seconds time elapsed
+
+       4.076537000 seconds user
+       0.218500000 seconds sys
+
+

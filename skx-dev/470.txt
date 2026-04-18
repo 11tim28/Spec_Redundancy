@@ -1,0 +1,16 @@
+
+ Performance counter stats for './lbm_base.amd64-m64-gcc42-nn 20 ./reference.dat 0 1 ./100_100_130_cf_a.of':
+
+     6,514,614,818      instructions                                                          
+     1,388,292,892      mem_inst_retired.all_loads                                            
+         1,060,954      l2_rqsts.demand_data_rd_miss                                          
+        18,062,824      l2_rqsts.all_demand_data_rd                                           
+            26,806      dTLB-load-misses                                                      
+       454,365,295      L1-dcache-load-misses                                                 
+
+       1.993298338 seconds time elapsed
+
+       1.884593000 seconds user
+       0.077760000 seconds sys
+
+

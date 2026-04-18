@@ -1,0 +1,16 @@
+
+ Performance counter stats for './h264ref_base.amd64-m64-gcc42-nn -d ./foreman_test_encoder_baseline.cfg':
+
+    86,879,801,914      instructions                                                          
+        17,403,672      L1-icache-load-misses                                                 
+     8,355,392,639      branches                                                              
+       120,550,607      branch-misses                    #    1.44% of all branches           
+        10,219,758      l2_rqsts.demand_data_rd_miss                                          
+            18,488      iTLB-load-misses                                                      
+
+      10.638551720 seconds time elapsed
+
+      10.542978000 seconds user
+       0.054810000 seconds sys
+
+

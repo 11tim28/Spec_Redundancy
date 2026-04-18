@@ -1,0 +1,16 @@
+
+ Performance counter stats for './wrf_r_base.linux-m64':
+
+    64,965,584,047      instructions                                                          
+    21,879,080,529      mem_inst_retired.all_loads                                            
+        27,366,591      l2_rqsts.demand_data_rd_miss                                          
+       183,297,437      l2_rqsts.all_demand_data_rd                                           
+         1,647,642      dTLB-load-misses                                                      
+       955,765,537      L1-dcache-load-misses                                                 
+
+      13.445461283 seconds time elapsed
+
+      12.964139000 seconds user
+       0.147382000 seconds sys
+
+

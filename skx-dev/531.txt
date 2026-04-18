@@ -1,0 +1,16 @@
+
+ Performance counter stats for './deepsjeng_r_base.linux-m64 test.txt':
+
+    34,868,176,397      instructions                                                          
+        66,309,359      L1-icache-load-misses                                                 
+     5,302,525,830      branches                                                              
+       164,868,405      branch-misses                    #    3.11% of all branches           
+        10,051,120      l2_rqsts.demand_data_rd_miss                                          
+             6,358      iTLB-load-misses                                                      
+
+       7.073597912 seconds time elapsed
+
+       6.878294000 seconds user
+       0.131637000 seconds sys
+
+

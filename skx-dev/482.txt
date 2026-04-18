@@ -1,0 +1,16 @@
+
+ Performance counter stats for './sphinx_livepretend_base.amd64-m64-gcc42-nn ./ctlfile . ./args.an4':
+
+     7,492,897,883      instructions                                                          
+     1,890,266,154      mem_inst_retired.all_loads                                            
+        12,866,333      l2_rqsts.demand_data_rd_miss                                          
+        49,909,375      l2_rqsts.all_demand_data_rd                                           
+         1,273,761      dTLB-load-misses                                                      
+       108,899,563      L1-dcache-load-misses                                                 
+
+       1.271350888 seconds time elapsed
+
+       1.091284000 seconds user
+       0.146756000 seconds sys
+
+

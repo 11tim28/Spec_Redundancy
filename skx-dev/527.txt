@@ -1,0 +1,16 @@
+
+ Performance counter stats for './cam4_r_base.linux-m64':
+
+   119,739,369,480      instructions                                                          
+    35,929,000,828      mem_inst_retired.all_loads                                            
+        77,217,449      l2_rqsts.demand_data_rd_miss                                          
+       696,616,629      l2_rqsts.all_demand_data_rd                                           
+         1,941,952      dTLB-load-misses                                                      
+     1,751,887,331      L1-dcache-load-misses                                                 
+
+      24.095340311 seconds time elapsed
+
+      22.579620000 seconds user
+       0.571446000 seconds sys
+
+

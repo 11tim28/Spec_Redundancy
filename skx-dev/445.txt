@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/445.gobmk/run/run_base_test_amd64-m64-gcc42-nn.0000/gobmk_base.amd64-m64-gcc42-nn --quiet --mode gtp':
+
+        32,773,961      instructions                                                          
+           257,950      L1-icache-load-misses                                                 
+         7,006,041      branches                                                              
+             9,882      branch-misses                    #    0.14% of all branches           
+            15,530      l2_rqsts.demand_data_rd_miss                                          
+               790      iTLB-load-misses                                                      
+
+       0.016553901 seconds time elapsed
+
+       0.004484000 seconds user
+       0.007854000 seconds sys
+
+

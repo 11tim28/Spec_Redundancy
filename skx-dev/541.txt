@@ -1,0 +1,16 @@
+
+ Performance counter stats for './leela_r_base.linux-m64 test.sgf':
+
+    21,512,440,058      instructions                                                          
+         7,573,366      L1-icache-load-misses                                                 
+     3,503,509,628      branches                                                              
+       304,154,573      branch-misses                    #    8.68% of all branches           
+         4,275,406      l2_rqsts.demand_data_rd_miss                                          
+            10,451      iTLB-load-misses                                                      
+
+       6.151182433 seconds time elapsed
+
+       6.055051000 seconds user
+       0.015937000 seconds sys
+
+
