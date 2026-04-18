@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/462.libquantum/run/run_base_test_amd64-m64-gcc42-nn.0000/libquantum_base.amd64-m64-gcc42-nn 33 5':
+
+       229,716,818      instructions                                                          
+           160,029      L1-icache-load-misses                                                 
+        53,675,260      branches                                                              
+            66,538      branch-misses                    #    0.12% of all branches           
+             1,823      l2_rqsts.demand_data_rd_miss                                          
+               347      iTLB-load-misses                                                      
+
+       0.024258923 seconds time elapsed
+
+       0.019473000 seconds user
+       0.001945000 seconds sys
+
+

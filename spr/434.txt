@@ -1,0 +1,16 @@
+
+ Performance counter stats for './zeusmp_base.amd64-m64-gcc42-nn':
+
+    42,586,711,504      instructions                                                            (83.31%)
+    10,708,979,085      mem_inst_retired.all_loads                                              (83.33%)
+        40,812,610      l2_rqsts.demand_data_rd_miss                                            (83.33%)
+       205,580,183      l2_rqsts.all_demand_data_rd                                             (83.34%)
+             3,258      dTLB-load-misses                                                        (83.35%)
+       204,407,586      L1-dcache-load-misses                                                   (66.65%)
+
+       4.935161075 seconds time elapsed
+
+       4.850489000 seconds user
+       0.026791000 seconds sys
+
+

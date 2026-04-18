@@ -1,0 +1,16 @@
+
+ Performance counter stats for './tonto_base.amd64-m64-gcc42-nn':
+
+     3,418,669,037      instructions                                                            (82.98%)
+     1,146,509,932      mem_inst_retired.all_loads                                              (83.49%)
+            62,866      l2_rqsts.demand_data_rd_miss                                            (83.35%)
+         3,250,549      l2_rqsts.all_demand_data_rd                                             (83.71%)
+             6,116      dTLB-load-misses                                                        (83.42%)
+         3,177,470      L1-dcache-load-misses                                                   (66.03%)
+
+       0.426353328 seconds time elapsed
+
+       0.343263000 seconds user
+       0.012725000 seconds sys
+
+

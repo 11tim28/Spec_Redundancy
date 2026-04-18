@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/429.mcf/run/run_base_test_amd64-m64-gcc42-nn.0000/mcf_base.amd64-m64-gcc42-nn /work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/429.mcf/run/run_base_test_amd64-m64-gcc42-nn.0000/inp.in':
+
+     3,173,364,677      instructions                                                          
+           678,600      L1-icache-load-misses                                                 
+       793,120,886      branches                                                              
+        34,657,358      branch-misses                    #    4.37% of all branches           
+        55,333,851      l2_rqsts.demand_data_rd_miss                                          
+             3,204      iTLB-load-misses                                                      
+
+       1.595707176 seconds time elapsed
+
+       1.542050000 seconds user
+       0.027818000 seconds sys
+
+

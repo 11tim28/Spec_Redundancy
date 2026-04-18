@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/458.sjeng/run/run_base_test_amd64-m64-gcc42-nn.0000/sjeng_base.amd64-m64-gcc42-nn /work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/458.sjeng/run/run_base_test_amd64-m64-gcc42-nn.0000/test.txt':
+
+    14,944,038,104      instructions                                                          
+         7,047,531      L1-icache-load-misses                                                 
+     3,289,059,692      branches                                                              
+        91,209,971      branch-misses                    #    2.77% of all branches           
+         5,257,696      l2_rqsts.demand_data_rd_miss                                          
+             6,962      iTLB-load-misses                                                      
+
+       2.801597944 seconds time elapsed
+
+       2.765873000 seconds user
+       0.026834000 seconds sys
+
+

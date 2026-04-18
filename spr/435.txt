@@ -1,0 +1,16 @@
+
+ Performance counter stats for './gromacs_base.amd64-m64-gcc42-nn -silent -deffnm gromacs -nice 0':
+
+     4,633,194,422      instructions                                                            (83.38%)
+     1,170,599,453      mem_inst_retired.all_loads                                              (83.40%)
+            69,849      l2_rqsts.demand_data_rd_miss                                            (83.30%)
+        32,088,443      l2_rqsts.all_demand_data_rd                                             (83.40%)
+             9,038      dTLB-load-misses                                                        (83.56%)
+        32,151,808      L1-dcache-load-misses                                                   (66.34%)
+
+       0.589735042 seconds time elapsed
+
+       0.512449000 seconds user
+       0.026916000 seconds sys
+
+

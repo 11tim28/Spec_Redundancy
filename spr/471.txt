@@ -1,0 +1,16 @@
+
+ Performance counter stats for '/work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/471.omnetpp/run/run_base_test_amd64-m64-gcc42-nn.0000/omnetpp_base.amd64-m64-gcc42-nn /work/11157/kc48727/stampede3/FinalProject/spec2006/benchspec/CPU2006/471.omnetpp/run/run_base_test_amd64-m64-gcc42-nn.0000/omnetpp.ini':
+
+        47,457,784      instructions                                                          
+           463,067      L1-icache-load-misses                                                 
+        10,204,358      branches                                                              
+            39,785      branch-misses                    #    0.39% of all branches           
+             8,763      l2_rqsts.demand_data_rd_miss                                          
+               708      iTLB-load-misses                                                      
+
+       0.012120959 seconds time elapsed
+
+       0.002989000 seconds user
+       0.004982000 seconds sys
+
+
