@@ -1,0 +1,16 @@
+
+ Performance counter stats for './imagick_r_base.linux-m64 -limit disk 0 test_input.tga -shear 25 -resize 640x480 -negate -alpha Off test_output.tga':
+
+       116,296,387      instructions                                                            (79.13%)
+        25,813,471      mem_inst_retired.all_loads                                              (84.46%)
+            17,527      l2_rqsts.demand_data_rd_miss                                            (84.40%)
+           246,314      l2_rqsts.all_demand_data_rd                                             (79.01%)
+             2,262      dTLB-load-misses                                                        (88.70%)
+           275,872      L1-dcache-load-misses                                                   (63.42%)
+
+       0.092925119 seconds time elapsed
+
+       0.010654000 seconds user
+       0.007512000 seconds sys
+
+

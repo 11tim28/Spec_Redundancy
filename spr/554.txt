@@ -1,0 +1,16 @@
+
+ Performance counter stats for './roms_r_base.linux-m64':
+
+    22,908,384,727      instructions                                                            (83.32%)
+     9,473,488,369      mem_inst_retired.all_loads                                              (83.29%)
+        27,192,033      l2_rqsts.demand_data_rd_miss                                            (83.35%)
+       219,247,095      l2_rqsts.all_demand_data_rd                                             (83.35%)
+         1,005,995      dTLB-load-misses                                                        (83.36%)
+       220,553,229      L1-dcache-load-misses                                                   (66.65%)
+
+       3.393857564 seconds time elapsed
+
+       3.198928000 seconds user
+       0.050223000 seconds sys
+
+

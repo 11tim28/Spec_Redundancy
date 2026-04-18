@@ -1,0 +1,16 @@
+
+ Performance counter stats for './cactusBSSN_r_base.linux-m64 spec_test.par':
+
+    13,776,721,561      instructions                                                            (83.32%)
+     6,099,843,201      mem_inst_retired.all_loads                                              (83.38%)
+        18,592,060      l2_rqsts.demand_data_rd_miss                                            (83.35%)
+     1,132,024,299      l2_rqsts.all_demand_data_rd                                             (83.39%)
+           455,543      dTLB-load-misses                                                        (83.29%)
+     1,134,773,397      L1-dcache-load-misses                                                   (66.59%)
+
+       2.279768538 seconds time elapsed
+
+       2.096511000 seconds user
+       0.050331000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './omnetpp_r_base.linux-m64 -c General -r 0':
+
+    11,097,738,777      instructions                                                          
+        43,463,138      L1-icache-load-misses                                                 
+     2,452,379,421      branches                                                              
+        25,545,295      branch-misses                    #    1.04% of all branches           
+        51,458,545      l2_rqsts.demand_data_rd_miss                                          
+            39,396      iTLB-load-misses                                                      
+
+       2.457668796 seconds time elapsed
+
+       2.107773000 seconds user
+       0.086949000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './bwaves_r_base.linux-m64 bwaves_1':
+
+    13,189,482,775      instructions                                                            (83.33%)
+     6,638,659,570      mem_inst_retired.all_loads                                              (83.34%)
+         1,006,644      l2_rqsts.demand_data_rd_miss                                            (83.30%)
+        48,819,898      l2_rqsts.all_demand_data_rd                                             (83.33%)
+            38,868      dTLB-load-misses                                                        (83.37%)
+        50,384,023      L1-dcache-load-misses                                                   (66.66%)
+
+       2.624208562 seconds time elapsed
+
+       2.417291000 seconds user
+       0.087520000 seconds sys
+
+

@@ -1,0 +1,16 @@
+
+ Performance counter stats for './lbm_r_base.linux-m64 20 reference.dat 0 1 100_100_130_cf_a.of':
+
+     6,724,909,309      instructions                                                            (83.29%)
+     1,203,803,363      mem_inst_retired.all_loads                                              (83.28%)
+           534,101      l2_rqsts.demand_data_rd_miss                                            (83.36%)
+         3,321,626      l2_rqsts.all_demand_data_rd                                             (83.36%)
+             2,326      dTLB-load-misses                                                        (83.33%)
+         3,267,726      L1-dcache-load-misses                                                   (66.66%)
+
+       1.457447968 seconds time elapsed
+
+       1.345955000 seconds user
+       0.033393000 seconds sys
+
+

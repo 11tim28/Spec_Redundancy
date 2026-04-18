@@ -1,0 +1,16 @@
+
+ Performance counter stats for './exchange2_r_base.linux-m64 0':
+
+    51,359,059,546      instructions                                                          
+        15,027,939      L1-icache-load-misses                                                 
+     8,498,928,088      branches                                                              
+       129,455,617      branch-misses                    #    1.52% of all branches           
+            20,967      l2_rqsts.demand_data_rd_miss                                          
+             6,477      iTLB-load-misses                                                      
+
+       5.543710357 seconds time elapsed
+
+       5.473162000 seconds user
+       0.001998000 seconds sys
+
+

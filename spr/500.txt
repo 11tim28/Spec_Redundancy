@@ -1,0 +1,16 @@
+
+ Performance counter stats for './perlbench_r_base.linux-m64 -I. -I./lib ./makerand.pl':
+
+     2,069,183,763      instructions                                                          
+           584,541      L1-icache-load-misses                                                 
+       452,714,090      branches                                                              
+            50,116      branch-misses                    #    0.01% of all branches           
+            13,012      l2_rqsts.demand_data_rd_miss                                          
+             1,565      iTLB-load-misses                                                      
+
+       0.244227825 seconds time elapsed
+
+       0.184935000 seconds user
+       0.006949000 seconds sys
+
+
