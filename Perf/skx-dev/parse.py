@@ -5,7 +5,7 @@ import pandas as pd
 # -----------------------------
 # Benchmark classification
 # -----------------------------
-spec2006_int = {401, 403, 429, 445, 456, 458, 462, 464, 471, 473}
+spec2006_int = {401, 403, 429, 445, 456, 458, 464, 471, 473}
 spec2006_fp  = {410, 434, 435, 436, 444, 453, 454, 459, 465, 470, 482}
 
 spec2017_int = {500, 502, 505, 520, 523, 525, 531, 541, 548, 557}
@@ -19,16 +19,16 @@ INT_METRICS = [
     "L1-icache-load-misses",
     "branches",
     "branch-misses",
-    "l2_cache_misses_from_dc_misses",
+    "l2_rqsts.demand_data_rd_miss",
     "iTLB-load-misses"
 ]
 
 FP_METRICS = [
     "instructions",
-    "all_data_cache_accesses",
-    "l2_cache_misses_from_dc_misses",
-    "l2_cache_accesses_from_dc_misses",
-    "l1_dtlb_misses",
+    "mem_inst_retired.all_loads",
+    "l2_rqsts.demand_data_rd_miss",
+    "l2_rqsts.all_demand_data_rd",
+    "dTLB-load-misses",
     "L1-dcache-load-misses"
 ]
 
@@ -39,16 +39,19 @@ def normalize(name):
 # -----------------------------
 # Regex
 # -----------------------------
-metric_pattern = re.compile(r"\s*([\d,]+)\s+([a-zA-Z0-9_\-]+)")
+metric_pattern = re.compile(r"\s*([\d,]+)\s+([a-zA-Z0-9_\-\.]+)")
 
 def parse_section(text):
     raw_data = {}
 
     for line in text.splitlines():
+        # print(line)
         match = metric_pattern.match(line)
         if match:
             value = int(match.group(1).replace(",", ""))
             key = normalize(match.group(2))
+            # if(match.group(3)):
+            #     print(match.group(2), match.group(3))
             raw_data[key] = value
 
     return raw_data
@@ -130,20 +133,29 @@ print("2017 FP :", len(data_2017_fp))
 # Convert to DataFrames
 # -----------------------------
 def make_df(data, metrics):
-    cols = ["benchmark"] + metrics
-
     if len(data) == 0:
-        # Return empty dataframe with correct columns
-        return pd.DataFrame(columns=cols)
+        return pd.DataFrame()
 
     df = pd.DataFrame(data)
 
     # Ensure all expected columns exist
-    for col in cols:
-        if col not in df.columns:
-            df[col] = 0
+    for m in metrics:
+        if m not in df.columns:
+            df[m] = 0
 
-    return df[cols].sort_values("benchmark")
+    # Set benchmark as index
+    df = df.set_index("benchmark")
+
+    # Keep only metric columns (in order)
+    df = df[metrics]
+
+    # Transpose: rows ↔ columns
+    df = df.T
+
+    # Sort columns (benchmarks)
+    df = df.sort_index(axis=1)
+
+    return df
 
 df_2006_int = make_df(data_2006_int, INT_METRICS)
 df_2006_fp  = make_df(data_2006_fp, FP_METRICS)
@@ -154,11 +166,16 @@ df_2017_fp  = make_df(data_2017_fp, FP_METRICS)
 # Save Excel
 # -----------------------------
 with pd.ExcelWriter("spec2006.xlsx") as writer:
-    df_2006_int.to_excel(writer, sheet_name="INT", index=False)
-    df_2006_fp.to_excel(writer, sheet_name="FP", index=False)
+    df_2006_int.to_excel(writer, sheet_name="INT")
+    df_2006_fp.to_excel(writer, sheet_name="FP")
 
 with pd.ExcelWriter("spec2017.xlsx") as writer:
-    df_2017_int.to_excel(writer, sheet_name="INT", index=False)
-    df_2017_fp.to_excel(writer, sheet_name="FP", index=False)
+    df_2017_int.to_excel(writer, sheet_name="INT")
+    df_2017_fp.to_excel(writer, sheet_name="FP")
 
 print("✅ Done! Generated spec2006.xlsx and spec2017.xlsx")
+
+
+
+
+
